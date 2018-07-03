@@ -1,1 +1,1 @@
-e-commerce
+Basic E-Commerce with Laravel
