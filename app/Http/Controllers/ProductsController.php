@@ -13,7 +13,7 @@ class ProductsController extends Controller
     public function addProduct(Request $request){
     	if($request->isMethod('post')){
     		$data = $request->all();
-    		// echo "<pre>"; print_r($data); die;
+    		echo "<pre>"; print_r($data); die;
     		if(empty($data['category_id'])){
     			return redirect()->back()->with('flash_message_error','Under Category is missing!');
     		}

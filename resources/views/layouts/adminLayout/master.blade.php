@@ -2,7 +2,8 @@
 <html lang="en">
 
 <head>
-    <title>Matrix Admin</title>
+    <title>E-Commerce</title>
+    <link rel="shortcut icon" href="https://png.icons8.com/color/50/000000/icons8-logo.png" type="image/x-icon">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.css">

@@ -1,5 +1,5 @@
 <header id="header">
-    <!--header-->
+
     <div class="header_top">
         <!--header_top-->
         <div class="container">
@@ -61,7 +61,7 @@
                 <div class="col-sm-4">
                     <div class="logo pull-left">
                         <a href="index.html">
-                            <img src="images/home/logo.png" alt="" />
+                            <img src="images/Frontend_images/home/logo.png" alt="" />
                         </a>
                     </div>
                     <div class="btn-group pull-right">
@@ -199,3 +199,4 @@
     </div>
     <!--/header-bottom-->
 </header>
+<!--/header-->
