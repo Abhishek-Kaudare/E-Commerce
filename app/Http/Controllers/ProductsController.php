@@ -43,9 +43,9 @@ class ProductsController extends Controller
     				$medium_image_path = 'images/backend_images/products/medium/'.$filename;
     				$small_image_path = 'images/backend_images/products/small/'.$filename;
     				// Resize Images
-    				Image::make($image_tmp)->save($large_image_path);
-    				Image::make($image_tmp)->resize(null, 600, function($constraint){$constraint->aspectRatio();})->save($medium_image_path);
-    				Image::make($image_tmp)->resize(null, 300, function($constraint){$constraint->aspectRatio();})->save($small_image_path);
+    				Image::make($image_tmp)->encode('png')->save($large_image_path);
+    				Image::make($image_tmp)->resize(null, 600, function($constraint){$constraint->aspectRatio();})->encode('png')->save($medium_image_path);
+    				Image::make($image_tmp)->resize(null, 300, function($constraint){$constraint->aspectRatio();})->encode('png')->save($small_image_path);
     				// Store image name in products table
     				$product->image = $filename;
     			}
