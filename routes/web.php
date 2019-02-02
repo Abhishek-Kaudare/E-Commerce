@@ -17,6 +17,7 @@ Route::match(['get','post'],'/admin','AdminController@login');
 
 Route::get('/logout','AdminController@logout');
 
+Route::get('/products/{url}', 'ProductsController@products');
 
 Route::group(['middleware' => 'auth'], function () {
 
